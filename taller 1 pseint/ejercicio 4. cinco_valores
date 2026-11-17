@@ -1,0 +1,64 @@
+Algoritmo cinco_valores
+	
+	Definir valor1, vaalor2, valor3, valor4, valor5 Como Real
+	Definir suma, resta1, resta2, multiplicacion, division, resultado_de_suma Como Real
+	
+	Escribir "vamos a hacer operaciones matematicas"
+	
+	Escribir "digitar el valor1 en numeros"
+	Leer valor1
+	
+	Escribir "digitar el valor2 en numeros"
+	Leer valor2
+	
+	Escribir "digitar el valor3 en numeros"
+	Leer valor3
+	
+	Escribir "digitar el valor4 en numeros"
+	Leer valor4
+	
+	Escribir "digitar el valor5 en numeros"
+	Leer valor5
+	
+	Escribir "suma"
+	
+	suma <- valor1+valor2+valor3+valor4+valor5
+	
+	Escribir " el resultado de la suma es:", suma
+	
+	Escribir "resta 1"
+	
+	Escribir "ahora vamos a realizar la resta1 restando los tres primeros valores"
+	
+	Escribir "dijita en numeros el resultado de la suma: "
+	Leer resultado_de_suma
+	
+	resta1 <- suma-valor1-valor2-valor3
+	
+	Escribir " el resultado de la resta 1 es:", resta1
+	
+	Escribir "resta 2"
+	
+	Escribir "ahora vamos a realizar la resta 2 restando los 2 ultimos valores a el resultado de la suma"
+	
+	resta2 <- suma-valor4-valor5
+	
+	Escribir " el resultado de la resta 2 es:", resta2
+	
+	Escribir "multiplicacion"
+	
+	Escribir " vamos a realizar la multiplicacion de resta 1 y resta 2"
+	
+	multiplicacion <- resta1*resta2
+	
+	Escribir "el resultado de la multiplicacion es:", multiplicacion
+	
+	Escribir "division"
+	
+	Escribir " vamos a realizar la division de la suma y la multiplicacion"
+	
+	division <- suma/multiplicacion
+	
+	Escribir "el resultado final es:", division
+	
+FinAlgoritmo

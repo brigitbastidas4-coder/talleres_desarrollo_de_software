@@ -1,0 +1,15 @@
+Algoritmo area_cuadrado
+	
+	Definir longituddecuadrado, areacuadrado Como Real
+	
+	Escribir "vamos a calcular el area de un cuadrado"
+	
+	Escribir "digite la longitud del cuadrado"
+	
+	Leer longituddecuadrado
+	
+	areacuadrado = longituddecuadrado * longituddecuadrado
+	
+	Escribir "el area de el cuadrado es:" , areacuadrado
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo area_trapecio
+	
+	Definir areatrapesio, basemenor, basemayor, altura Como Real
+	
+	Escribir "vamos hallar el area de un trapecio"
+	
+	Escribir "digite el valor la base menor en numeros"
+	
+	Leer basemenor
+	
+	Escribir "digite el valor la base mayor en numeros"
+	
+	Leer basemayor
+	
+	Escribir "digite el valor la altura menor en numeros"
+	
+	Leer altura
+	
+	areatrapesio = ((basemenor + basemayor) / 2) * altura
+	
+	Escribir "el area del trapecio es:" , areatrapesio
+	
+FinAlgoritmo

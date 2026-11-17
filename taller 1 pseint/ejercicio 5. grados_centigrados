@@ -1,0 +1,15 @@
+Algoritmo grados_centigrados
+	
+	Definir gradoscentigrados, gradosFahrenheit Como Real
+	
+	Escribir "vamos a pasar grados centigrados a grados Fahrenheit"
+	
+	Escribir "dijita los grados Fahrenheit"
+	
+	Leer gradoscentigrados
+	
+	gradosFahrenheit = (gradoscentigrados * 9 / 5 ) + 32
+	
+	Escribir "en grados Fahrenheit serian:" , gradosFahrenheit
+	
+FinAlgoritmo

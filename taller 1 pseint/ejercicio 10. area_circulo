@@ -1,0 +1,15 @@
+Algoritmo area_circulo
+	
+	Definir areacirculo, radio Como Real
+	
+	Escribir "vamosa hallar el area de un circulo"
+	
+	Escribir "digita el radio de el circulo en numeros"
+	
+	Leer radio
+	
+	areacirculo <- pi*radio^2
+	
+	Escribir "el area de un circulo es:" , areacirculo
+	
+FinAlgoritmo

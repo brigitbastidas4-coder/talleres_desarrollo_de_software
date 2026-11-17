@@ -1,0 +1,19 @@
+Algoritmo area_rombo
+	
+	Definir arearombo, diagonalmenor, diagonalmayor Como Real
+	
+	Escribir "vamos a calcular el area"
+	
+	Escribir "digite el valor de el diagonal menor en numeros"
+	
+	Leer diagonalmenor
+	
+	Escribir "digite el valor de el diagonal mayor en numeros"
+	
+	Leer diagonalmayor
+	
+	arearombo = (diagonalmenor * diagonalmayor) / 2
+	
+	Escribir "el area de un rombo es:" , arearombo
+	
+FinAlgoritmo

@@ -1,0 +1,19 @@
+Algoritmo valor_porcentage
+	
+	Definir valornormal, porcentage, resultado Como Real
+	
+	Escribir "vamos a hallar el 10 porciento de un valor"
+	
+	Escribir "digita el valor que quieres hallarle el 10 porciento"
+	
+	Leer valornormal
+	
+	Escribir "digita el porcentage q quieras hallar"
+	
+	Leer porcentage
+	
+	resultado = (valornormal * porcentage) / 100
+	
+	Escribir "el porcentage final es:" , resultado
+	
+FinAlgoritmo

@@ -1,0 +1,19 @@
+Algoritmo area_rectangulo
+	
+	Definir base, altura, areatriangulo Como Real
+	
+	Escribir "vamos a hallar el area de un rectangulo"
+	
+	Escribir "dijita la base de el rectangulo"
+	
+	Leer base
+	
+	Escribir "dijita la altura de el rectangulo"
+	
+	Leer altura
+	
+	areatriangulo = base * altura
+	
+	Escribir "el area del rectangulo es:" , areatriangulo
+	
+FinAlgoritmo

@@ -1,0 +1,21 @@
+Algoritmo valor_pesos_colombianos
+	
+	Definir valorcolombiano, dolares, euros Como Real
+	
+	Escribir "apartir de una cifra de pesos colombianos lo convertiremos en dolares y euros"
+	
+	Escribir "digita el valor en pesos colombianos en numeros"
+	
+	Leer valorcolombiano
+	
+	dolares = valorcolombiano / 4100
+	
+	euros = valorcolombiano / 4450
+	
+	Escribir "los valores finales son:"
+	
+	Escribir "dolares:" , dolares
+	
+	Escribir "euros:" , euros
+	
+FinAlgoritmo

@@ -1,0 +1,23 @@
+Algoritmo valor_carro
+	
+	Definir valorcarro, ganancia, impuesto, valorfinal Como Real
+	
+	Escribir "vamos a calcular el valor total de un carro teniendo en cuenta los porcentages dados"
+	
+	Escribir "digita el valor de vehiculo"
+	
+	Leer valorcarro
+	
+	ganancia = valorcarro * 0.12
+	
+	impuesto = valorcarro * 0.06
+	
+	valorfinal = valorcarro + ganancia + impuesto
+	
+	Escribir "la ganancia es de:" ganancia
+	
+	Escribir "el impuesto es de:" impuesto
+	
+	Escribir "el valor total del carro es:" valorfinal
+	
+FinAlgoritmo

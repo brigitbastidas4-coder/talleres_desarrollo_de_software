@@ -1,0 +1,37 @@
+Algoritmo valor_metros
+	
+	Definir metros, kilometros, hectometros, decametros, decimetros, centimetros, milimetros Como Real
+	
+	Escribir "vamos a colcular kilometros, hectometros, decametros, decimetros, centimetros, milimetros a apartir de metros"
+	
+	Escribir "digite el valor de metros"
+	
+	Leer metros
+	
+	kilometros = metros / 1000
+	
+	hectometros = metros / 100
+	
+	decametros = metros / 10
+	
+	decimetros = metros * 10
+	
+	centimetros = metros * 100
+	
+	milimetros = metros * 1000
+	
+	Escribir "el resultado final es:"
+	
+	Escribir "kilometros: " kilometros
+	
+	Escribir "hectometros:" hectometros
+	
+	Escribir "decametro: " decametros
+	
+	Escribir "decimetros:" decimetros
+	
+	Escribir "centimetros:" centimetros
+	
+	Escribir "milimetros:" milimetros
+	
+FinAlgoritmo
