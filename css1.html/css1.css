@@ -1,0 +1,38 @@
+*{
+    /* el asterisco es el sevctor universal*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*
+
+/* las etiquetas se invocan por su nombre */
+p{
+    color:blueviolet
+}
+
+div{
+    
+border: 8px solid blueviolet
+}
+
+/* las clases afectan a los elementos q contengan la misma clase */
+
+.clase-caja{
+border: 8px solid blue;
+background-color: orange;
+}
+
+.clase-parrafo{
+    color:brown
+}
+
+/*los ids afectan a elementos especificos por su id */
+#fotografia{
+    border:8px solid olivedrab;
+    width:  300px;
+}
+
+#señora{
+    border:8px solid olivedrab;
+    width:  300px;
+}
